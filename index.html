@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz FMP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="header">
+            <h1>Quiz</h1>
+            <img src="FMP.png" alt="Logo FMP">
+        </div>
+        <div id="quizScreen">
+            <form id="quizForm">
+                </form>
+            <button id="submitQuiz">Finalizar Quiz</button>
+        </div>
+
+        <div id="resultsScreen" class="hidden">
+            <h2>Resultados do Quiz</h2>
+            <p>Acertos: <span id="correctAnswers">0</span> de 20</p>
+            <p>Erros: <span id="wrongAnswers">0</span> de 20</p>
+
+            <div id="corrections">
+                <h3>Correção das Questões</h3>
+                </div>
+
+            <button id="restartQuiz">Recomeçar Quiz</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
